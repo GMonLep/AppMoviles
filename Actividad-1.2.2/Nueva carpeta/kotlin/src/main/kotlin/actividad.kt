@@ -53,7 +53,17 @@ fun main(){
     println("Longitud variable nula con valor null: ${nulable?.length} caracteres")
 
     var numero:Int = 6
+    val semana = when(numero){
+        1 -> "Lunes"
+        2 -> "Martes"
+        3 -> "Miercoles"
+        4 -> "Jueves"
+        5 -> "Viernes"
+        6 -> "Sabado"
+        7 -> "Domingo"
+        else -> "No es un dia de la semana"
 
+    }
 
 }
 
