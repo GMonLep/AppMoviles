@@ -1,10 +1,8 @@
-package kotlin
+abstract class TransporteCarga {
+    abstract var patente: String
+    abstract var peso: Int
+    abstract var capacidad: Int
 
-fun costoEnvio(){
-    try {
-        val input = readLine();
-
-        val peso = input?.toInt() ?:
-
-    }
+    open fun costoEnvio(): Int = 0
+    abstract fun patenteContenido(): Result<String>
 }
