@@ -19,7 +19,7 @@ fun main () = runBlocking{
         println("Papas listokas")
     }
     scope.launch {
-        delay(1000)
+        delay(1000L)
         println("Jugo listoko")
     }
     println("Preparando la mesa...")
